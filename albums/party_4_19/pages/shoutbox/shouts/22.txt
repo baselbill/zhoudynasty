@@ -1,0 +1,1 @@
+a:8:{i:0;i:22;i:1;s:7:"Ice Box";i:2;s:7:"http://";i:3;s:0:"";i:4;s:217:"See that is the beauty of IS, is that it truly is management for software, hardware, or networking. And in order to manage correctly you cannot outsource something that will gain a corporation a competitive advantage.";i:5;b:0;i:6;s:13:"128.114.6.111";i:7;i:1078248607;}

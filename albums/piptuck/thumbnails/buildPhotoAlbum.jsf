@@ -1,0 +1,92 @@
+App.progressCountTotal = 11;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/Pics/piptuck/PICT0001.JPG');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'PICT0001.JPG';
+if (!Files.exists('file:///C|/Pics/piptuck/images/PICT0001_JPG.jpg') || confirm('file:///C|/Pics/piptuck/images/PICT0001_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/images/PICT0001_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/piptuck/thumbnails/PICT0001_JPG.jpg') || confirm('file:///C|/Pics/piptuck/thumbnails/PICT0001_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/thumbnails/PICT0001_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/piptuck/PICT0002.JPG');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'PICT0002.JPG';
+if (!Files.exists('file:///C|/Pics/piptuck/images/PICT0002_JPG.jpg') || confirm('file:///C|/Pics/piptuck/images/PICT0002_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/images/PICT0002_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/piptuck/thumbnails/PICT0002_JPG.jpg') || confirm('file:///C|/Pics/piptuck/thumbnails/PICT0002_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/thumbnails/PICT0002_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/piptuck/PICT0003.JPG');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'PICT0003.JPG';
+if (!Files.exists('file:///C|/Pics/piptuck/images/PICT0003_JPG.jpg') || confirm('file:///C|/Pics/piptuck/images/PICT0003_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/images/PICT0003_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/piptuck/thumbnails/PICT0003_JPG.jpg') || confirm('file:///C|/Pics/piptuck/thumbnails/PICT0003_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/thumbnails/PICT0003_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/piptuck/PICT0004.JPG');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'PICT0004.JPG';
+if (!Files.exists('file:///C|/Pics/piptuck/images/PICT0004_JPG.jpg') || confirm('file:///C|/Pics/piptuck/images/PICT0004_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/images/PICT0004_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/piptuck/thumbnails/PICT0004_JPG.jpg') || confirm('file:///C|/Pics/piptuck/thumbnails/PICT0004_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/thumbnails/PICT0004_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/piptuck/PICT0005.JPG');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'PICT0005.JPG';
+if (!Files.exists('file:///C|/Pics/piptuck/images/PICT0005_JPG.jpg') || confirm('file:///C|/Pics/piptuck/images/PICT0005_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/images/PICT0005_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/piptuck/thumbnails/PICT0005_JPG.jpg') || confirm('file:///C|/Pics/piptuck/thumbnails/PICT0005_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/thumbnails/PICT0005_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/piptuck/PICT0006.JPG');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'PICT0006.JPG';
+if (!Files.exists('file:///C|/Pics/piptuck/images/PICT0006_JPG.jpg') || confirm('file:///C|/Pics/piptuck/images/PICT0006_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/images/PICT0006_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/piptuck/thumbnails/PICT0006_JPG.jpg') || confirm('file:///C|/Pics/piptuck/thumbnails/PICT0006_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/thumbnails/PICT0006_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/piptuck/PICT0007.JPG');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'PICT0007.JPG';
+if (!Files.exists('file:///C|/Pics/piptuck/images/PICT0007_JPG.jpg') || confirm('file:///C|/Pics/piptuck/images/PICT0007_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/images/PICT0007_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/piptuck/thumbnails/PICT0007_JPG.jpg') || confirm('file:///C|/Pics/piptuck/thumbnails/PICT0007_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/thumbnails/PICT0007_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/piptuck/PICT0008.JPG');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'PICT0008.JPG';
+if (!Files.exists('file:///C|/Pics/piptuck/images/PICT0008_JPG.jpg') || confirm('file:///C|/Pics/piptuck/images/PICT0008_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/images/PICT0008_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/piptuck/thumbnails/PICT0008_JPG.jpg') || confirm('file:///C|/Pics/piptuck/thumbnails/PICT0008_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/thumbnails/PICT0008_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/piptuck/PICT0009.JPG');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'PICT0009.JPG';
+if (!Files.exists('file:///C|/Pics/piptuck/images/PICT0009_JPG.jpg') || confirm('file:///C|/Pics/piptuck/images/PICT0009_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/images/PICT0009_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/piptuck/thumbnails/PICT0009_JPG.jpg') || confirm('file:///C|/Pics/piptuck/thumbnails/PICT0009_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/thumbnails/PICT0009_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/piptuck/PICT0010.JPG');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'PICT0010.JPG';
+if (!Files.exists('file:///C|/Pics/piptuck/images/PICT0010_JPG.jpg') || confirm('file:///C|/Pics/piptuck/images/PICT0010_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/images/PICT0010_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/piptuck/thumbnails/PICT0010_JPG.jpg') || confirm('file:///C|/Pics/piptuck/thumbnails/PICT0010_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/thumbnails/PICT0010_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/piptuck/PICT0011.JPG');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'PICT0011.JPG';
+if (!Files.exists('file:///C|/Pics/piptuck/images/PICT0011_JPG.jpg') || confirm('file:///C|/Pics/piptuck/images/PICT0011_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/images/PICT0011_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/piptuck/thumbnails/PICT0011_JPG.jpg') || confirm('file:///C|/Pics/piptuck/thumbnails/PICT0011_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/piptuck/thumbnails/PICT0011_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';

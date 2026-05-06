@@ -1,0 +1,1 @@
+a:8:{i:0;i:27;i:1;s:8:"Ice Tray";i:2;s:7:"http://";i:3;s:0:"";i:4;s:215:"Yeah if company A were to outsource its managment, then company B would have the competitive advantage over A, because B has all their managment in house to make local decisions that would be better for the company.";i:5;b:0;i:6;s:13:"128.114.6.150";i:7;i:1078507881;}

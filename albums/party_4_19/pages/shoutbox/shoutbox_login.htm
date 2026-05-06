@@ -1,0 +1,34 @@
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style><form action="{form_action}" method="post">
+  <div></div>
+  <table cellspacing="5" cellpadding="0">
+    <tr>
+      <td>Password:</td>
+      <td><input type="password" size="20" maxlength="100" name="{password_field}" id="{password_field}" /></td>
+    </tr>
+    <tr>
+    <td>&nbsp;</td>
+      <td>
+        <input type="submit" value="Login" name="Login" />
+        <input type="reset" value="Cancel" name="Reset" onclick="window.location='{back_url}'" />
+      </td>
+    </tr>
+  </table>
+</form>
+
+<script>
+    document.title += " -- Shoutbox Admin Login";
+    document.getElementById('{password_field}').focus( );
+</script>

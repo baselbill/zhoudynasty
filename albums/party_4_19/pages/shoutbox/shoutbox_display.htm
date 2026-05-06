@@ -1,0 +1,96 @@
+<!-- form validation, username and message must not be empty-->
+<script type="text/javascript">
+function validate_shout ( sName, sMsg )
+{
+    if ( document.getElementById(sName).value == "" )
+    {
+        alert ( "You need a name." );
+        return false;
+    }
+    if ( document.getElementById(sMsg).value == "" )
+    {
+        alert ( "Please fill out the message field." );
+        return false;
+    }
+    return true;
+}
+</script>
+
+<!-- stats and navigation --><style type="text/css">
+<!--
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.style1 {font-size: 9px}
+.style2 {font-family: Tahoma, Verdana, Arial}
+-->
+</style>
+<div style="padding: 5px; border: 1px #F0F0F0 solid; margin-bottom: 2px; background-color: #FDFDFD; height: 14px; font-family: Tahoma, Verdana, Arial;">
+  Entries: {total_shouts} &nbsp; Users: {users_online}<br />
+          <br>
+  <a href="{prev_link}">&laquo;</a> {current_page} of {total_pages} <a href="{next_link}">&raquo;</a>    
+  <div style="margin-left: auto;text-align:right;right:0px;">
+  </div>	
+</div>
+
+<span class="style2">
+<!--
+shouts, the following are available {name}(just plain name, not URL link), {name_linked} (if user has URL or EMAIL, name is linked to them) {message}, {time},
+{rowcolor:color1|color2}, {shout_id}, {url}, {email}
+-->
+{start shouts}
+</span>
+<div style="padding: 5px; margin-bottom: 1px; background-color: {rowcolor:#FAFAFA|#F0F0F0; font-family: Tahoma, Verdana, Arial;">
+     <strong>{name_linked}</strong> <span class="style1">- {time}</span>  
+     <div style="margin:5px;">{message}</div>
+</div>
+<span class="style2">{end shouts}
+
+<!-- the form -->
+</span>
+<div style="padding: 5px; margin-top: 2px; background-color: #FAFAFA; font-family: Tahoma, Verdana, Arial;">
+     <form action="{form_action}" method="post">
+     <a name="shout"></a>
+     <table border="0" cellpadding="0" cellspacing="1">
+            <tr>
+                <td><div align="right"><span class="style2">Name:</span></div></td>
+                <td><input name="{name_field}" type="text" id="{name_field}" value="{poster_name}" size="19" maxlength="{max_name_length}" /></td>
+            </tr>
+            <tr>
+                <td><div align="right"><span class="style2">Email:</span></div></td>
+                <td><input name="{email_field}" type="text" id="email" value="{poster_email}" size="19" maxlength="200" /></td>
+            </tr>
+            <tr>
+                <td><div align="right"><span class="style2">URL:</span></div></td>
+                <td><input name="{url_field}" type="text" id="url" value="{poster_url}" size="19" maxlength="200" /></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="vertical-align: top"><span class="style2">Message:
+                </span><br>                  
+              <textarea name="{message_field}" cols="19" rows="3" wrap="VIRTUAL" id="{message_field}"></textarea></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+		            <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td><label for="label"><span class="style2">Private shout:</span></label>
+                          <input type="checkbox" name="{private_field}" id="label" value="1" />                          <label for="label2"><br>
+                          <span class="style2">Remember me:</span></label>
+                          <input type="checkbox" name="{remember_field}" id="label2" value="1" checked="checked" /></td>
+                        <td><input type="submit" name="submit" value="Post" onClick="return validate_shout ( '{name_field}', '{message_field}' );" /></td>
+                      </tr>
+                    </table>
+</td>
+            </tr>
+     </table>
+     <a href="{help_url}">Help</a> <a href="{admin_url}" target="_blank">Admin</a>
+     </form></div>
+
+

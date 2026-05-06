@@ -1,0 +1,70 @@
+<!-- Remember, don't change things inside curly brackets {likethis} -->
+
+<script type="text/javascript">
+all_checked = true;
+function checkall(formName, boxName) {
+	for(i = 0; i < document.getElementById(formName).elements.length; i++)
+	{
+		var formElement = document.getElementById(formName).elements[i];
+		if(formElement.type == 'checkbox' && formElement.name == boxName && formElement.disabled == false)
+		{
+			formElement.checked = all_checked;
+		}
+	}
+all_checked = all_checked ? false : true;
+}
+</script>
+
+<!-- stats and navigation for admin list-->
+<div style="padding: 5px; border: 1px #F0F0F0 solid; margin-bottom: 2px; background-color: #FDFDFD; height: 14px; ">
+     <div style="float: left; position: absolute; display: inline;">
+          Total shouts: {total_shouts} &nbsp; <a href="{back_url}">Back to admin menu</a>
+     </div>
+
+     <div style="float: right; width: 50%; text-align: right;">
+          &laquo; <a href="{prev_link}">Previous</a> [ Page {current_page} of {total_pages}] <a href="{next_link}">Next</a> &raquo;
+     </div>	
+</div>
+
+<!-- shouts -->
+<form action="{form_action}" id="delete_form" method="post">
+      <table style="width:100%" cellpadding="2" cellspacing="1">
+             <tr style="background-color:#FAFAFA">
+                 <td style="width:1%"><strong>ID</strong></td>
+                 <td><strong>Name</strong></td>
+                 <td><strong>Time</strong></td>
+                 <td style="width:1%"><strong>IP</strong></td>
+                 <td style="width:1%"><strong>Edit</strong></td>
+                 <td style="width:1%"><strong>View</strong></td>
+                 <td style="width:1%"><strong>Delete</strong></td>
+             </tr>
+    {start shouts}
+             <tr style="background-color:{rowcolor:#FFFFFF|#F0F0F0};">
+                 <td>{shout_id}</td>
+                 <td>{name}</td>
+                 <td>{time}</td>
+                 <td>{ip}</td>
+                 <td><a href="{edit_url}">Edit</a></td>
+                 <td><a href="{view_url}">View</a></td>
+                 <td><input type="checkbox" name="{shouts}" value="{shout_id}" /></td>
+             </tr>
+    {end shouts}
+      </table>
+    <div style="text-align:right;">
+         <input type="hidden" name="{form_task}" value="{1}" />
+         <input type="reset" value="Check all" name="Delete" onclick="checkall ( 'delete_form', '{shouts}' ); this.value=(this.value=='Check all'?'Uncheck all' :'Check all'); return false;" />
+         <input type="submit" value="Delete selected" name="Delete" onclick="return confirm('Are you sure you want to delete the selected shouts?');" />
+    </div>
+</form>
+
+<!-- form to delete -->
+<hr />
+<form action="{form_action}" method="post">
+      <div>
+           Delete posts that are older than <input type="text" value="30" size="2" name="{timeout}" /> days.<br />
+           Enter numbers only. Value can be in decimal, meaning 0.5 means half a day.
+           Entering 0 (zero) will delete all messages, so be careful unless that is what you want to do.<br /><br />
+           <input type="hidden" name="{form_task}" value="{2}" />
+           <input type="submit" value="Delete" name="Delete" onclick="return confirm('Delete all shouts older than specified time?');"/>
+      </div>
+</form>

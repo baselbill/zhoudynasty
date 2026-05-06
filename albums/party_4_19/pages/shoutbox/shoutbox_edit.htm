@@ -1,0 +1,28 @@
+<form method="post" action="{form_action}">
+    <table cellpadding="4" cellspacing="1" style="width:100%">
+           <tr style="background-color:#FAFAFA">
+               <td nowrap="nowrap"><strong>Poster's name</strong>:</td>
+               <td><input type="text" name="{name_field}" value="{name}" size="30" /></td>
+           </tr>
+           <tr style="background-color:#F0F0F0">
+               <td><strong>Poster's URL</strong>:</td>
+               <td><input type="text" name="{url_field}" value="{url}" size="30" /></a></td>
+           </tr>
+           <tr style="background-color:#FAFAFA">
+               <td><strong>Poster's email</strong>:</td>
+               <td><input type="text" name="{email_field}" value="{email}" size="30" /></a></td>
+           </tr>
+           <tr style="background-color:#FAFAFA">
+               <td style="vertical-align:top;"><strong>Post content</strong>:</td>
+               <td style="width:100%"><textarea name="{message_field}" cols="90" rows="10">{message}</textarea></td>
+           </tr>
+           <tr style="background-color:#F0F0F0">
+               <td><input type="hidden" value="1" name="{form_task}" /></td>
+               <td>
+                   <input type="submit" value="Save" name="Save" />
+                   <input type="reset" name="Reset" value="Reset" onclick="return confirm('Are you sure?');" />
+                   <input type="reset" name="Cancel" value="Cancel" onclick="window.location='{back_url}'; return false;" />
+               </td>
+           </tr>
+    </table>
+</form>

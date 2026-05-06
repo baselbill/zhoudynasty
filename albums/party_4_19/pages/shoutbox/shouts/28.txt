@@ -1,0 +1,1 @@
+a:8:{i:0;i:28;i:1;s:16:"nate es confused";i:2;s:13:"www.yomas.com";i:3;s:0:"";i:4;s:126:"So now blogger had comments, but at the same time their website does not say they support comments, what is going on here!!!!!";i:5;b:0;i:6;s:13:"128.114.6.150";i:7;i:1078509239;}

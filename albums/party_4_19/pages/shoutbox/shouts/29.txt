@@ -1,0 +1,1 @@
+a:8:{i:0;i:29;i:1;s:5:"Billy";i:2;s:22:"http://zhoudynasty.com";i:3;s:16:"zhou0101@umn.edu";i:4;s:136:"Again, blogger doesn't do everything for you like Xanga.  It lets you do whatever you want, so I implemented a comment script using php.";i:5;b:0;i:6;s:14:"206.242.150.66";i:7;i:1078513307;}

@@ -1,0 +1,76 @@
+The uploader and its files were last updated on July 9th, 2003. If you are updating,
+don't overwrite the files in your "data" directory unless directed otherwise.
+
+Fixes and updates in this release
+________________________________________________________________
+1. Undefined function "file_get_contents" for servers running PHP < 4.3.0
+2. "default_upload_fields" <-- missing the "s" in the file "uploader.php", it gives you
+   an error when you enter a number greater than "max_upload_fields"
+
+
+
+Fixes and updates in release 2
+__________________________________________________________________
+1. Sorting bug
+2. Upload log now includes IP.  I though the IP was included.  I guess
+   the function only includes the IP on my host.
+3. Fix log unserialize error. Sometimes the log gets cleared when unserialize fails. 
+   Looks like it works now.
+
+
+
+
+Fixes and updates in previous release 1
+__________________________________________________________________
+1. username had to be exact, fixed so that you can log in with a lower case name.
+2. templates are now cached.  The files are cached forever, if you make any changes
+to the templates, empty the cache directory and they will be parsed again.
+3. new directory called "cache", chmod this to 0777, just like the directory "data"
+
+
+
+
+Installation:
+__________________________________________________________
+1. Extract and Upload the content of this zip file to your web server
+   and keep the directory structure.  There should be 2 files and 5 directories.
+   admin.php and index.php along with "cache" "data", "images", "includes", and "templates".
+
+2. Create a directory on your webserver where you want the uploaded images to go into.
+   Chmod this directory to 0777.  If this does not work, try 0755 or 0666.
+
+3. Go into the directory "data" and chmod the three files (users.db, settings.db, log.db)
+   in there to either 0777, 0755, or 0666, preferably 0777.  The .htaccess file in this
+   directory is to protect the public from accessing these files.
+
+4. CHMOD the directory "cache" as you have with the directory "data"
+
+5. Go to your browser and type in the address to admin.php that is on your server
+
+6. Enter admin with the default password.  Change it right away.  Go into the "settings"
+   section and edit your settings.  Click save and check to make sure everything is working
+   by running the uploader (index.php) and register yourself, upload a file, look around.
+
+
+Supports:
+____________________________________________________________
+You can post in my shoutbox @ http://celerondude.com or email me
+at dork@celerondude.com if you need any help installing
+or have any inquiries
+
+
+License:
+____________________________________________________________
+100% free for non-commercial user. If you use any part of the code, please
+credit me.
+
+
+Acknowledgements:
+___________________________________________________________
+Thank you all for tell me about bugs!!
+
+Thanks to the owner of http://ww2.iupload.net for running the first release
+and offering me feedbacks.  I hope you will do the same.
+
+I copied the Smarty template syntax (not the implementations)
+since I find it to be simple to use.

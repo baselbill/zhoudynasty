@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>Layout</title>
+	<link rel="STYLESHEET" type="text/css" href="styles.css">
+	<style>
+		.CornerImage {
+			position: absolute;
+			bottom: 0px;
+			right: 0px;
+		}
+	</style>
+	<script language="Javascript">
+	function replacePNG() {
+		var rslt = navigator.appVersion.match(/MSIE (\d+\.\d+)/, '');
+		
+		if (rslt != null && Number(rslt[1]) >= 5.5) {
+			var img = document.images[0];
+			if (img != null) {
+			var src = img.src;
+				img.style.width = img.width + "px";
+				img.style.height = img.height + "px";
+				img.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + src + "', sizingMethod='scale')"
+				img.src = "x.gif";
+			}
+		}
+	}
+	</script>
+</head>
+
+<body class="bodyBlank" onload="replacePNG()">
+	<div id="CornerImage" class="CornerImage"><img src="LayoutTopLeftCorner.png" width="10" height="10" alt="" border="0"></div>
+</body>
+</html>

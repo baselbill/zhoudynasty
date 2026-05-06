@@ -1,0 +1,172 @@
+App.progressCountTotal = 21;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/Pics/meonbike/mybikeandi (1).JPG');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'mybikeandi (1).JPG';
+if (!Files.exists('file:///C|/Pics/meonbike/images/mybikeandi (1)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/images/mybikeandi (1)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/images/mybikeandi (1)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/meonbike/thumbnails/mybikeandi (1)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/thumbnails/mybikeandi (1)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/thumbnails/mybikeandi (1)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/meonbike/mybikeandi (10).JPG');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'mybikeandi (10).JPG';
+if (!Files.exists('file:///C|/Pics/meonbike/images/mybikeandi (10)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/images/mybikeandi (10)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/images/mybikeandi (10)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/meonbike/thumbnails/mybikeandi (10)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/thumbnails/mybikeandi (10)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/thumbnails/mybikeandi (10)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/meonbike/mybikeandi (11).JPG');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'mybikeandi (11).JPG';
+if (!Files.exists('file:///C|/Pics/meonbike/images/mybikeandi (11)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/images/mybikeandi (11)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/images/mybikeandi (11)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/meonbike/thumbnails/mybikeandi (11)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/thumbnails/mybikeandi (11)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/thumbnails/mybikeandi (11)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/meonbike/mybikeandi (12).JPG');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'mybikeandi (12).JPG';
+if (!Files.exists('file:///C|/Pics/meonbike/images/mybikeandi (12)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/images/mybikeandi (12)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/images/mybikeandi (12)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/meonbike/thumbnails/mybikeandi (12)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/thumbnails/mybikeandi (12)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/thumbnails/mybikeandi (12)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/meonbike/mybikeandi (13).JPG');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'mybikeandi (13).JPG';
+if (!Files.exists('file:///C|/Pics/meonbike/images/mybikeandi (13)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/images/mybikeandi (13)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/images/mybikeandi (13)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/meonbike/thumbnails/mybikeandi (13)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/thumbnails/mybikeandi (13)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/thumbnails/mybikeandi (13)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/meonbike/mybikeandi (14).JPG');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'mybikeandi (14).JPG';
+if (!Files.exists('file:///C|/Pics/meonbike/images/mybikeandi (14)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/images/mybikeandi (14)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/images/mybikeandi (14)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/meonbike/thumbnails/mybikeandi (14)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/thumbnails/mybikeandi (14)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/thumbnails/mybikeandi (14)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/meonbike/mybikeandi (15).JPG');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'mybikeandi (15).JPG';
+if (!Files.exists('file:///C|/Pics/meonbike/images/mybikeandi (15)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/images/mybikeandi (15)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/images/mybikeandi (15)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/meonbike/thumbnails/mybikeandi (15)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/thumbnails/mybikeandi (15)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/thumbnails/mybikeandi (15)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/meonbike/mybikeandi (16).JPG');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'mybikeandi (16).JPG';
+if (!Files.exists('file:///C|/Pics/meonbike/images/mybikeandi (16)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/images/mybikeandi (16)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/images/mybikeandi (16)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/meonbike/thumbnails/mybikeandi (16)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/thumbnails/mybikeandi (16)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/thumbnails/mybikeandi (16)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/meonbike/mybikeandi (17).JPG');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'mybikeandi (17).JPG';
+if (!Files.exists('file:///C|/Pics/meonbike/images/mybikeandi (17)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/images/mybikeandi (17)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/images/mybikeandi (17)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/meonbike/thumbnails/mybikeandi (17)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/thumbnails/mybikeandi (17)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/thumbnails/mybikeandi (17)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/meonbike/mybikeandi (18).JPG');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'mybikeandi (18).JPG';
+if (!Files.exists('file:///C|/Pics/meonbike/images/mybikeandi (18)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/images/mybikeandi (18)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/images/mybikeandi (18)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/meonbike/thumbnails/mybikeandi (18)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/thumbnails/mybikeandi (18)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/thumbnails/mybikeandi (18)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/meonbike/mybikeandi (19).JPG');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'mybikeandi (19).JPG';
+if (!Files.exists('file:///C|/Pics/meonbike/images/mybikeandi (19)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/images/mybikeandi (19)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/images/mybikeandi (19)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/meonbike/thumbnails/mybikeandi (19)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/thumbnails/mybikeandi (19)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/thumbnails/mybikeandi (19)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/meonbike/mybikeandi (2).JPG');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'mybikeandi (2).JPG';
+if (!Files.exists('file:///C|/Pics/meonbike/images/mybikeandi (2)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/images/mybikeandi (2)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/images/mybikeandi (2)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/meonbike/thumbnails/mybikeandi (2)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/thumbnails/mybikeandi (2)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/thumbnails/mybikeandi (2)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/meonbike/mybikeandi (20).JPG');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'mybikeandi (20).JPG';
+if (!Files.exists('file:///C|/Pics/meonbike/images/mybikeandi (20)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/images/mybikeandi (20)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/images/mybikeandi (20)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/meonbike/thumbnails/mybikeandi (20)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/thumbnails/mybikeandi (20)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/thumbnails/mybikeandi (20)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/meonbike/mybikeandi (3).JPG');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'mybikeandi (3).JPG';
+if (!Files.exists('file:///C|/Pics/meonbike/images/mybikeandi (3)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/images/mybikeandi (3)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/images/mybikeandi (3)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/meonbike/thumbnails/mybikeandi (3)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/thumbnails/mybikeandi (3)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/thumbnails/mybikeandi (3)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/meonbike/mybikeandi (4).JPG');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'mybikeandi (4).JPG';
+if (!Files.exists('file:///C|/Pics/meonbike/images/mybikeandi (4)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/images/mybikeandi (4)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/images/mybikeandi (4)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/meonbike/thumbnails/mybikeandi (4)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/thumbnails/mybikeandi (4)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/thumbnails/mybikeandi (4)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/meonbike/mybikeandi (5).JPG');
+App.progressCountCurrent = 16;
+App.batchStatusString = 'mybikeandi (5).JPG';
+if (!Files.exists('file:///C|/Pics/meonbike/images/mybikeandi (5)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/images/mybikeandi (5)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/images/mybikeandi (5)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/meonbike/thumbnails/mybikeandi (5)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/thumbnails/mybikeandi (5)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/thumbnails/mybikeandi (5)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/meonbike/mybikeandi (6).JPG');
+App.progressCountCurrent = 17;
+App.batchStatusString = 'mybikeandi (6).JPG';
+if (!Files.exists('file:///C|/Pics/meonbike/images/mybikeandi (6)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/images/mybikeandi (6)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/images/mybikeandi (6)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/meonbike/thumbnails/mybikeandi (6)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/thumbnails/mybikeandi (6)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/thumbnails/mybikeandi (6)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/meonbike/mybikeandi (7).JPG');
+App.progressCountCurrent = 18;
+App.batchStatusString = 'mybikeandi (7).JPG';
+if (!Files.exists('file:///C|/Pics/meonbike/images/mybikeandi (7)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/images/mybikeandi (7)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/images/mybikeandi (7)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/meonbike/thumbnails/mybikeandi (7)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/thumbnails/mybikeandi (7)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/thumbnails/mybikeandi (7)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/meonbike/mybikeandi (8).JPG');
+App.progressCountCurrent = 19;
+App.batchStatusString = 'mybikeandi (8).JPG';
+if (!Files.exists('file:///C|/Pics/meonbike/images/mybikeandi (8)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/images/mybikeandi (8)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/images/mybikeandi (8)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/meonbike/thumbnails/mybikeandi (8)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/thumbnails/mybikeandi (8)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/thumbnails/mybikeandi (8)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/meonbike/mybikeandi (9).JPG');
+App.progressCountCurrent = 20;
+App.batchStatusString = 'mybikeandi (9).JPG';
+if (!Files.exists('file:///C|/Pics/meonbike/images/mybikeandi (9)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/images/mybikeandi (9)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/images/mybikeandi (9)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/meonbike/thumbnails/mybikeandi (9)_JPG.jpg') || confirm('file:///C|/Pics/meonbike/thumbnails/mybikeandi (9)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/thumbnails/mybikeandi (9)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/meonbike/mybikeandi.JPG');
+App.progressCountCurrent = 21;
+App.batchStatusString = 'mybikeandi.JPG';
+if (!Files.exists('file:///C|/Pics/meonbike/images/mybikeandi_JPG.jpg') || confirm('file:///C|/Pics/meonbike/images/mybikeandi_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/images/mybikeandi_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/meonbike/thumbnails/mybikeandi_JPG.jpg') || confirm('file:///C|/Pics/meonbike/thumbnails/mybikeandi_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/meonbike/thumbnails/mybikeandi_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';

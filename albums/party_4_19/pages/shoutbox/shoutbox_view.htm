@@ -1,0 +1,49 @@
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style><table cellpadding="4" cellspacing="1" style="width:100%">
+       <tr style="background-color:#F0F0F0">
+           <td nowrap="nowrap"><strong>Shout Id</strong>:</td>
+           <td>{shout_id}</td>
+       </tr>
+       <tr style="background-color:#FAFAFA">
+           <td nowrap="nowrap"><strong>Poster's name</strong>:</td>
+           <td>{name}</td>
+       </tr>
+       <tr style="background-color:#F0F0F0">
+           <td><strong>Poster's URL</strong>:</td>
+           <td><a href="{url}">{url}</a></td>
+       </tr>
+       <tr style="background-color:#FAFAFA">
+           <td><strong>Poster's email</strong>:</td>
+           <td><a href="mailto:{email}">{email}</a></td>
+       </tr>
+       <tr style="background-color:#F0F0F0">
+           <td><strong>Poster's IP</strong>:</td>
+           <td>{ip}</td>
+       </tr>
+       <tr style="background-color:#FAFAFA">
+           <td><strong>Posted on</strong>:</td>
+           <td>{time}</td>
+       </tr>
+       <tr style="background-color:#F0F0F0">
+           <td><strong>Post is private</strong>:</td>
+           <td>{private}</td>
+       </tr>
+       <tr style="background-color:#FAFAFA">
+           <td style="vertical-align:top;"><strong>Post content</strong>:</td>
+           <td style="width:100%">{message}</td>
+       </tr>
+</table>
+<hr />
+<a href="{back_url}">Go back to the list</a> or <a href="{edit_url}">edit this shout</a>.

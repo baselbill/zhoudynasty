@@ -1,0 +1,94 @@
+H1 {
+  FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+  FONT-SIZE: 11pt;
+  TEXT-ALIGN: left;
+  MARGIN-TOP: 5;
+}
+
+
+body#g {
+    background-color: 333333;
+}
+ 
+body#b {
+    background-color: black;
+}
+
+
+body#w {
+    background-color: white;
+}
+
+
+Typo {
+  FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+  FONT-SIZE: 10px;
+  background-image: none;
+  color : 666666;
+}
+
+
+A.typo {
+	color : 666666;
+}
+
+A.typo:VISITED {
+	color : 666666;
+}
+
+
+A.typo:hover {
+	text-decoration: underline;
+	color : #ffffff;
+}
+
+
+
+A.typo2 {
+	color : ffffff;
+}
+
+A.typo2:VISITED {
+	color : ffffff;
+}
+
+
+A.typo2:hover {
+	text-decoration: underline;
+	color : #ffffff;
+}
+
+
+
+
+A {
+	color : 666666;
+}
+
+A:VISITED {
+	color : 666666;
+}
+
+A:hover {
+	text-decoration: underline;
+	color : #000000;
+}
+
+img.border_image {
+ border: 1px solid #666666;
+}
+
+
+TD {
+  FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+  FONT-SIZE: 10px;
+  background-image: none;
+  color : 666666;
+}
+
+TD.highlight {
+  color : white;
+}
+
+
+

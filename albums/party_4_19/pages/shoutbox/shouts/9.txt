@@ -1,0 +1,1 @@
+a:8:{i:0;i:9;i:1;s:8:"Tone-Def";i:2;s:7:"http://";i:3;s:0:"";i:4;s:160:"Itsn't it obvious helen? Because lobsters the shit!!! But for real, thou. On the 3 1/2 percent tip, the second letter of the alphabet is "B"! Think about it!!!!";i:5;b:0;i:6;s:12:"64.172.99.27";i:7;i:1077687875;}

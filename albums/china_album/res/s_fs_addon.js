@@ -1,0 +1,14 @@
+/* USE WORDWRAP & MAXIMIZE THE WINDOW TO SEE THIS FILE
+========================================
+ SmartMenus v5.5 Frame Support Add-on
+========================================
+ (c)2005 ET VADIKOM-VASIL DINKOV
+========================================
+*/
+
+
+s_toolbarFrameName='Photos';// the name of the frame containing your toolbar
+s_toolbarFramePosition=1;//1- top, 2- left, 3- bottom, 4- right
+
+// ===
+if(s_nS4)s_F=0;function s_showFS(a,e){if(!s_ML)return;var w=parent.frames[s_toolbarFrameName];if(!w)return;var n,M;n=s_nr(a);M=s_[n][0];if(M.LV!=1){alert("ERROR:\nYou are calling the '"+a+"' menu, which is not a first level menu!\nThe s_show() function can only show menus with LV:1 set.");return}if(M.P){alert("ERROR:\nYou are calling the '"+a+"' menu, which is a permanent menu!");return}clearTimeout(s_T);s_as(n);var r,rs;r=s_nS4?s_x.layers["s_m"+n]:s_getO("s_m"+n);rs=s_nS4?r:r.style;if(rs.visibility=="show"||rs.visibility.toLowerCase()=="visible")return;var wY,wX,mouseX,mouseY,H,W,cL,cT,px;s_hide2();if(s_oP7m||s_nS4&&!s_[n][0].hf)s_hf(n);if(s_F)s_htg();if(typeof(s_iF)!="undefined"&&s_iF&&!M.iF)s_if(n);s_S[1]=r;wY=s_iE?w.s_dE.scrollTop:w.pageYOffset;wX=s_iE?w.s_dE.scrollLeft-(w.s_rl()?w.s_dE.scrollWidth-w.s_dE.clientWidth:0):w.pageXOffset;e=w.event?w.event:e;H=r.offsetHeight?r.offsetHeight:s_nS4?r.clip.height:rs.pixelHeight;W=r.offsetWidth?r.offsetWidth:s_nS4?r.clip.width:rs.pixelWidth;px=s_oP7m||s_nS4?0:"px";if(s_toolbarFramePosition==1||s_toolbarFramePosition==3){mouseX=s_iE||s_oP7||s_kN31p?e.clientX+wX-(w.s_rl()?w.s_dE.offsetWidth-w.s_dE.clientWidth:0):s_oP||s_kN?e.clientX:e.pageX;mouseY=0;wY=0}else if(s_toolbarFramePosition==2||s_toolbarFramePosition==4){mouseX=0;mouseY=s_iE||s_oP7||s_kN31p?e.clientY+wY:s_oP||s_kN?e.clientY:e.pageY;wX=0}else{alert('ERROR:\nThe "s_toolbarFramePosition" variable in the "s_fs_addon.js" file\nis not set correctly.');return}cL=s_toolbarFramePosition==4?typeof(M.L)!="number"&&M.L==""?s_w-W+s_l-wX:s_w-W-eval(M.L)+s_l-wX:typeof(M.L)!="number"&&M.L==""?mouseX+s_l-wX:eval(M.L)+s_l-wX;cT=s_toolbarFramePosition==3?typeof(M.T)!="number"&&M.T==""?s_h-H+s_t-wY:s_h-H-eval(M.T)+s_t-wY:typeof(M.T)!="number"&&M.T==""?mouseY+s_t-wY:eval(M.T)+s_t-wY;if(r.SC)rs.top=s_t+M.SCH+px;else if(!s_nS4&&M.SC&&!s_scrO&&H>s_h)rs.top=s_t+px;else rs.top=(cT+H>s_t+s_h)?s_t+s_h-H+px:cT+px;rs.left=(cL+W>s_l+s_w)?s_l+s_w-W+px:cL+px;if(r.SC){var u,d;u=s_nS4?s_x.layers["s_m"+n+"_u"]:s_getOS("s_m"+n+"_u");d=s_nS4?s_x.layers["s_m"+n+"_d"]:s_getOS("s_m"+n+"_d");u.zIndex=rs.zIndex;d.zIndex=u.zIndex;u.top=s_t+px;d.top=s_t+s_h-M.SCH+px;u.left=parseInt(rs.left)+parseInt((W-M.SCW)/2)+px;d.left=u.left;if(s_nS4){u.visibility="show";d.visibility="show"}}if(s_nS4){r.visibility="show";return}if(typeof(s_iF)!="undefined"&&s_iF)s_si(n,r);if(r.filters&&r.filters.length!=0)s_sh2(r);else rs.visibility=s_nS&&!s_sF?setTimeout("s_sh()",1):"visible"};s_AL=true

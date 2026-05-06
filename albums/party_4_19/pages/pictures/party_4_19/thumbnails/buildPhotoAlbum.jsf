@@ -1,0 +1,828 @@
+App.progressCountTotal = 103;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (0).JPG');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'uv_party_4_19 (0).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (0)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (0)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (0)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (0)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (0)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (0)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (1).JPG');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'uv_party_4_19 (1).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (1)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (1)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (1)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (1)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (1)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (1)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (10).JPG');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'uv_party_4_19 (10).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (10)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (10)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (10)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (10)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (10)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (10)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (100).JPG');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'uv_party_4_19 (100).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (100)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (100)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (100)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (100)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (100)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (100)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (101).JPG');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'uv_party_4_19 (101).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (101)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (101)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (101)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (101)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (101)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (101)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (102).JPG');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'uv_party_4_19 (102).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (102)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (102)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (102)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (102)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (102)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (102)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (11).JPG');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'uv_party_4_19 (11).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (11)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (11)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (11)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (11)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (11)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (11)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (12).JPG');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'uv_party_4_19 (12).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (12)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (12)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (12)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (12)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (12)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (12)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (13).JPG');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'uv_party_4_19 (13).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (13)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (13)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (13)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (13)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (13)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (13)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (14).JPG');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'uv_party_4_19 (14).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (14)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (14)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (14)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (14)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (14)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (14)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (15).JPG');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'uv_party_4_19 (15).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (15)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (15)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (15)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (15)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (15)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (15)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (16).JPG');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'uv_party_4_19 (16).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (16)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (16)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (16)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (16)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (16)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (16)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (17).JPG');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'uv_party_4_19 (17).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (17)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (17)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (17)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (17)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (17)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (17)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (18).JPG');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'uv_party_4_19 (18).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (18)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (18)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (18)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (18)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (18)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (18)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (19).JPG');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'uv_party_4_19 (19).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (19)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (19)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (19)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (19)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (19)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (19)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (2).JPG');
+App.progressCountCurrent = 16;
+App.batchStatusString = 'uv_party_4_19 (2).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (2)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (2)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (2)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (2)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (2)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (2)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (20).JPG');
+App.progressCountCurrent = 17;
+App.batchStatusString = 'uv_party_4_19 (20).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (20)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (20)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (20)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (20)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (20)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (20)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (21).JPG');
+App.progressCountCurrent = 18;
+App.batchStatusString = 'uv_party_4_19 (21).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (21)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (21)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (21)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (21)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (21)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (21)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (22).JPG');
+App.progressCountCurrent = 19;
+App.batchStatusString = 'uv_party_4_19 (22).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (22)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (22)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (22)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (22)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (22)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (22)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (23).JPG');
+App.progressCountCurrent = 20;
+App.batchStatusString = 'uv_party_4_19 (23).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (23)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (23)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (23)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (23)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (23)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (23)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (24).JPG');
+App.progressCountCurrent = 21;
+App.batchStatusString = 'uv_party_4_19 (24).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (24)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (24)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (24)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (24)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (24)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (24)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (25).JPG');
+App.progressCountCurrent = 22;
+App.batchStatusString = 'uv_party_4_19 (25).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (25)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (25)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (25)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (25)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (25)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (25)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (26).JPG');
+App.progressCountCurrent = 23;
+App.batchStatusString = 'uv_party_4_19 (26).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (26)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (26)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (26)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (26)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (26)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (26)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (27).JPG');
+App.progressCountCurrent = 24;
+App.batchStatusString = 'uv_party_4_19 (27).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (27)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (27)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (27)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (27)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (27)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (27)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (28).JPG');
+App.progressCountCurrent = 25;
+App.batchStatusString = 'uv_party_4_19 (28).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (28)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (28)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (28)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (28)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (28)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (28)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (29).JPG');
+App.progressCountCurrent = 26;
+App.batchStatusString = 'uv_party_4_19 (29).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (29)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (29)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (29)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (29)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (29)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (29)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (3).JPG');
+App.progressCountCurrent = 27;
+App.batchStatusString = 'uv_party_4_19 (3).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (3)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (3)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (3)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (3)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (3)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (3)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (30).JPG');
+App.progressCountCurrent = 28;
+App.batchStatusString = 'uv_party_4_19 (30).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (30)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (30)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (30)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (30)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (30)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (30)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (31).JPG');
+App.progressCountCurrent = 29;
+App.batchStatusString = 'uv_party_4_19 (31).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (31)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (31)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (31)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (31)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (31)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (31)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (32).JPG');
+App.progressCountCurrent = 30;
+App.batchStatusString = 'uv_party_4_19 (32).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (32)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (32)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (32)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (32)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (32)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (32)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (33).JPG');
+App.progressCountCurrent = 31;
+App.batchStatusString = 'uv_party_4_19 (33).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (33)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (33)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (33)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (33)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (33)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (33)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (34).JPG');
+App.progressCountCurrent = 32;
+App.batchStatusString = 'uv_party_4_19 (34).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (34)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (34)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (34)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (34)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (34)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (34)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (35).JPG');
+App.progressCountCurrent = 33;
+App.batchStatusString = 'uv_party_4_19 (35).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (35)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (35)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (35)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (35)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (35)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (35)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (36).JPG');
+App.progressCountCurrent = 34;
+App.batchStatusString = 'uv_party_4_19 (36).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (36)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (36)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (36)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (36)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (36)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (36)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (37).JPG');
+App.progressCountCurrent = 35;
+App.batchStatusString = 'uv_party_4_19 (37).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (37)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (37)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (37)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (37)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (37)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (37)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (38).JPG');
+App.progressCountCurrent = 36;
+App.batchStatusString = 'uv_party_4_19 (38).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (38)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (38)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (38)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (38)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (38)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (38)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (39).JPG');
+App.progressCountCurrent = 37;
+App.batchStatusString = 'uv_party_4_19 (39).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (39)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (39)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (39)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (39)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (39)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (39)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (4).JPG');
+App.progressCountCurrent = 38;
+App.batchStatusString = 'uv_party_4_19 (4).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (4)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (4)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (4)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (4)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (4)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (4)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (40).JPG');
+App.progressCountCurrent = 39;
+App.batchStatusString = 'uv_party_4_19 (40).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (40)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (40)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (40)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (40)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (40)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (40)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (41).JPG');
+App.progressCountCurrent = 40;
+App.batchStatusString = 'uv_party_4_19 (41).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (41)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (41)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (41)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (41)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (41)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (41)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (42).JPG');
+App.progressCountCurrent = 41;
+App.batchStatusString = 'uv_party_4_19 (42).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (42)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (42)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (42)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (42)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (42)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (42)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (43).JPG');
+App.progressCountCurrent = 42;
+App.batchStatusString = 'uv_party_4_19 (43).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (43)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (43)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (43)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (43)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (43)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (43)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (44).JPG');
+App.progressCountCurrent = 43;
+App.batchStatusString = 'uv_party_4_19 (44).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (44)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (44)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (44)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (44)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (44)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (44)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (45).JPG');
+App.progressCountCurrent = 44;
+App.batchStatusString = 'uv_party_4_19 (45).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (45)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (45)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (45)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (45)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (45)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (45)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (46).JPG');
+App.progressCountCurrent = 45;
+App.batchStatusString = 'uv_party_4_19 (46).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (46)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (46)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (46)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (46)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (46)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (46)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (47).JPG');
+App.progressCountCurrent = 46;
+App.batchStatusString = 'uv_party_4_19 (47).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (47)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (47)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (47)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (47)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (47)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (47)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (48).JPG');
+App.progressCountCurrent = 47;
+App.batchStatusString = 'uv_party_4_19 (48).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (48)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (48)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (48)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (48)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (48)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (48)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (49).JPG');
+App.progressCountCurrent = 48;
+App.batchStatusString = 'uv_party_4_19 (49).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (49)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (49)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (49)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (49)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (49)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (49)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (5).JPG');
+App.progressCountCurrent = 49;
+App.batchStatusString = 'uv_party_4_19 (5).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (5)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (5)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (5)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (5)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (5)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (5)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (50).JPG');
+App.progressCountCurrent = 50;
+App.batchStatusString = 'uv_party_4_19 (50).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (50)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (50)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (50)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (50)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (50)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (50)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (51).JPG');
+App.progressCountCurrent = 51;
+App.batchStatusString = 'uv_party_4_19 (51).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (51)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (51)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (51)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (51)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (51)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (51)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (52).JPG');
+App.progressCountCurrent = 52;
+App.batchStatusString = 'uv_party_4_19 (52).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (52)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (52)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (52)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (52)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (52)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (52)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (53).JPG');
+App.progressCountCurrent = 53;
+App.batchStatusString = 'uv_party_4_19 (53).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (53)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (53)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (53)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (53)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (53)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (53)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (54).JPG');
+App.progressCountCurrent = 54;
+App.batchStatusString = 'uv_party_4_19 (54).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (54)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (54)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (54)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (54)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (54)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (54)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (55).JPG');
+App.progressCountCurrent = 55;
+App.batchStatusString = 'uv_party_4_19 (55).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (55)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (55)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (55)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (55)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (55)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (55)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (56).JPG');
+App.progressCountCurrent = 56;
+App.batchStatusString = 'uv_party_4_19 (56).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (56)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (56)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (56)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (56)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (56)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (56)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (57).JPG');
+App.progressCountCurrent = 57;
+App.batchStatusString = 'uv_party_4_19 (57).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (57)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (57)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (57)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (57)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (57)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (57)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (58).JPG');
+App.progressCountCurrent = 58;
+App.batchStatusString = 'uv_party_4_19 (58).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (58)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (58)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (58)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (58)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (58)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (58)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (59).JPG');
+App.progressCountCurrent = 59;
+App.batchStatusString = 'uv_party_4_19 (59).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (59)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (59)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (59)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (59)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (59)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (59)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (6).JPG');
+App.progressCountCurrent = 60;
+App.batchStatusString = 'uv_party_4_19 (6).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (6)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (6)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (6)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (6)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (6)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (6)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (60).JPG');
+App.progressCountCurrent = 61;
+App.batchStatusString = 'uv_party_4_19 (60).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (60)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (60)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (60)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (60)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (60)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (60)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (61).JPG');
+App.progressCountCurrent = 62;
+App.batchStatusString = 'uv_party_4_19 (61).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (61)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (61)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (61)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (61)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (61)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (61)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (62).JPG');
+App.progressCountCurrent = 63;
+App.batchStatusString = 'uv_party_4_19 (62).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (62)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (62)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (62)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (62)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (62)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (62)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (63).JPG');
+App.progressCountCurrent = 64;
+App.batchStatusString = 'uv_party_4_19 (63).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (63)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (63)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (63)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (63)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (63)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (63)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (64).JPG');
+App.progressCountCurrent = 65;
+App.batchStatusString = 'uv_party_4_19 (64).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (64)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (64)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (64)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (64)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (64)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (64)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (65).JPG');
+App.progressCountCurrent = 66;
+App.batchStatusString = 'uv_party_4_19 (65).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (65)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (65)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (65)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (65)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (65)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (65)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (66).JPG');
+App.progressCountCurrent = 67;
+App.batchStatusString = 'uv_party_4_19 (66).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (66)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (66)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (66)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (66)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (66)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (66)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (67).JPG');
+App.progressCountCurrent = 68;
+App.batchStatusString = 'uv_party_4_19 (67).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (67)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (67)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (67)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (67)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (67)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (67)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (68).JPG');
+App.progressCountCurrent = 69;
+App.batchStatusString = 'uv_party_4_19 (68).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (68)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (68)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (68)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (68)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (68)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (68)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (69).JPG');
+App.progressCountCurrent = 70;
+App.batchStatusString = 'uv_party_4_19 (69).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (69)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (69)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (69)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (69)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (69)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (69)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (7).JPG');
+App.progressCountCurrent = 71;
+App.batchStatusString = 'uv_party_4_19 (7).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (7)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (7)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (7)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (7)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (7)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (7)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (70).JPG');
+App.progressCountCurrent = 72;
+App.batchStatusString = 'uv_party_4_19 (70).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (70)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (70)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (70)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (70)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (70)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (70)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (71).JPG');
+App.progressCountCurrent = 73;
+App.batchStatusString = 'uv_party_4_19 (71).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (71)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (71)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (71)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (71)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (71)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (71)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (72).JPG');
+App.progressCountCurrent = 74;
+App.batchStatusString = 'uv_party_4_19 (72).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (72)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (72)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (72)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (72)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (72)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (72)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (73).JPG');
+App.progressCountCurrent = 75;
+App.batchStatusString = 'uv_party_4_19 (73).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (73)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (73)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (73)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (73)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (73)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (73)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (74).JPG');
+App.progressCountCurrent = 76;
+App.batchStatusString = 'uv_party_4_19 (74).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (74)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (74)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (74)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (74)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (74)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (74)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (75).JPG');
+App.progressCountCurrent = 77;
+App.batchStatusString = 'uv_party_4_19 (75).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (75)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (75)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (75)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (75)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (75)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (75)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (76).JPG');
+App.progressCountCurrent = 78;
+App.batchStatusString = 'uv_party_4_19 (76).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (76)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (76)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (76)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (76)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (76)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (76)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (77).JPG');
+App.progressCountCurrent = 79;
+App.batchStatusString = 'uv_party_4_19 (77).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (77)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (77)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (77)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (77)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (77)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (77)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (78).JPG');
+App.progressCountCurrent = 80;
+App.batchStatusString = 'uv_party_4_19 (78).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (78)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (78)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (78)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (78)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (78)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (78)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (79).JPG');
+App.progressCountCurrent = 81;
+App.batchStatusString = 'uv_party_4_19 (79).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (79)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (79)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (79)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (79)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (79)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (79)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (8).JPG');
+App.progressCountCurrent = 82;
+App.batchStatusString = 'uv_party_4_19 (8).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (8)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (8)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (8)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (8)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (8)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (8)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (80).JPG');
+App.progressCountCurrent = 83;
+App.batchStatusString = 'uv_party_4_19 (80).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (80)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (80)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (80)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (80)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (80)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (80)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (81).JPG');
+App.progressCountCurrent = 84;
+App.batchStatusString = 'uv_party_4_19 (81).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (81)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (81)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (81)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (81)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (81)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (81)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (82).JPG');
+App.progressCountCurrent = 85;
+App.batchStatusString = 'uv_party_4_19 (82).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (82)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (82)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (82)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (82)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (82)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (82)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (83).JPG');
+App.progressCountCurrent = 86;
+App.batchStatusString = 'uv_party_4_19 (83).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (83)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (83)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (83)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (83)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (83)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (83)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (84).JPG');
+App.progressCountCurrent = 87;
+App.batchStatusString = 'uv_party_4_19 (84).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (84)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (84)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (84)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (84)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (84)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (84)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (85).JPG');
+App.progressCountCurrent = 88;
+App.batchStatusString = 'uv_party_4_19 (85).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (85)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (85)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (85)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (85)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (85)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (85)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (86).JPG');
+App.progressCountCurrent = 89;
+App.batchStatusString = 'uv_party_4_19 (86).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (86)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (86)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (86)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (86)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (86)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (86)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (87).JPG');
+App.progressCountCurrent = 90;
+App.batchStatusString = 'uv_party_4_19 (87).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (87)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (87)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (87)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (87)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (87)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (87)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (88).JPG');
+App.progressCountCurrent = 91;
+App.batchStatusString = 'uv_party_4_19 (88).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (88)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (88)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (88)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (88)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (88)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (88)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (89).JPG');
+App.progressCountCurrent = 92;
+App.batchStatusString = 'uv_party_4_19 (89).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (89)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (89)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (89)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (89)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (89)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (89)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (9).JPG');
+App.progressCountCurrent = 93;
+App.batchStatusString = 'uv_party_4_19 (9).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (9)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (9)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (9)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (9)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (9)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (9)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (90).JPG');
+App.progressCountCurrent = 94;
+App.batchStatusString = 'uv_party_4_19 (90).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (90)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (90)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (90)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (90)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (90)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (90)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (91).JPG');
+App.progressCountCurrent = 95;
+App.batchStatusString = 'uv_party_4_19 (91).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (91)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (91)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (91)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (91)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (91)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (91)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (92).JPG');
+App.progressCountCurrent = 96;
+App.batchStatusString = 'uv_party_4_19 (92).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (92)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (92)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (92)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (92)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (92)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (92)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (93).JPG');
+App.progressCountCurrent = 97;
+App.batchStatusString = 'uv_party_4_19 (93).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (93)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (93)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (93)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (93)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (93)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (93)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (94).JPG');
+App.progressCountCurrent = 98;
+App.batchStatusString = 'uv_party_4_19 (94).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (94)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (94)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (94)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (94)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (94)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (94)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (95).JPG');
+App.progressCountCurrent = 99;
+App.batchStatusString = 'uv_party_4_19 (95).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (95)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (95)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (95)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (95)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (95)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (95)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (96).JPG');
+App.progressCountCurrent = 100;
+App.batchStatusString = 'uv_party_4_19 (96).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (96)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (96)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (96)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (96)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (96)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (96)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (97).JPG');
+App.progressCountCurrent = 101;
+App.batchStatusString = 'uv_party_4_19 (97).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (97)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (97)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (97)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (97)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (97)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (97)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (98).JPG');
+App.progressCountCurrent = 102;
+App.batchStatusString = 'uv_party_4_19 (98).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (98)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (98)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (98)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (98)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (98)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (98)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/party_4_19/uv_party_4_19 (99).JPG');
+App.progressCountCurrent = 103;
+App.batchStatusString = 'uv_party_4_19 (99).JPG';
+if (!Files.exists('file:///C|/Pics/party_4_19/images/uv_party_4_19 (99)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/images/uv_party_4_19 (99)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/images/uv_party_4_19 (99)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (99)_JPG.jpg') || confirm('file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (99)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/party_4_19/thumbnails/uv_party_4_19 (99)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+'done';

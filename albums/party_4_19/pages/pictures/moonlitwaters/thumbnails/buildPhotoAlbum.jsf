@@ -1,0 +1,236 @@
+App.progressCountTotal = 29;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (0).jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'moonlitwaters (0).jpg';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (0)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (0)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (0)_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (0)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (0)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (0)_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (1).jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'moonlitwaters (1).jpg';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (1)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (1)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (1)_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (1)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (1)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (1)_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (10).jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'moonlitwaters (10).jpg';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (10)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (10)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (10)_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (10)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (10)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (10)_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (11).jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'moonlitwaters (11).jpg';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (11)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (11)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (11)_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (11)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (11)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (11)_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (12).JPG');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'moonlitwaters (12).JPG';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (12)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (12)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (12)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (12)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (12)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (12)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (13).JPG');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'moonlitwaters (13).JPG';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (13)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (13)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (13)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (13)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (13)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (13)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (14).JPG');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'moonlitwaters (14).JPG';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (14)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (14)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (14)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (14)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (14)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (14)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (15).JPG');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'moonlitwaters (15).JPG';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (15)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (15)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (15)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (15)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (15)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (15)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (16).JPG');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'moonlitwaters (16).JPG';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (16)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (16)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (16)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (16)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (16)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (16)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (17).JPG');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'moonlitwaters (17).JPG';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (17)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (17)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (17)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (17)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (17)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (17)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (18).JPG');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'moonlitwaters (18).JPG';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (18)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (18)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (18)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (18)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (18)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (18)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (19).JPG');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'moonlitwaters (19).JPG';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (19)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (19)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (19)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (19)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (19)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (19)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (2).jpg');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'moonlitwaters (2).jpg';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (2)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (2)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (2)_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (2)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (2)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (2)_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (20).JPG');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'moonlitwaters (20).JPG';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (20)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (20)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (20)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (20)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (20)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (20)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (21).JPG');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'moonlitwaters (21).JPG';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (21)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (21)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (21)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (21)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (21)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (21)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (22).JPG');
+App.progressCountCurrent = 16;
+App.batchStatusString = 'moonlitwaters (22).JPG';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (22)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (22)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (22)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (22)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (22)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (22)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (23).JPG');
+App.progressCountCurrent = 17;
+App.batchStatusString = 'moonlitwaters (23).JPG';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (23)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (23)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (23)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (23)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (23)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (23)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (24).JPG');
+App.progressCountCurrent = 18;
+App.batchStatusString = 'moonlitwaters (24).JPG';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (24)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (24)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (24)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (24)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (24)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (24)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (25).JPG');
+App.progressCountCurrent = 19;
+App.batchStatusString = 'moonlitwaters (25).JPG';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (25)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (25)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (25)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (25)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (25)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (25)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (26).JPG');
+App.progressCountCurrent = 20;
+App.batchStatusString = 'moonlitwaters (26).JPG';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (26)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (26)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (26)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (26)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (26)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (26)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (27).JPG');
+App.progressCountCurrent = 21;
+App.batchStatusString = 'moonlitwaters (27).JPG';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (27)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (27)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (27)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (27)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (27)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (27)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (28).JPG');
+App.progressCountCurrent = 22;
+App.batchStatusString = 'moonlitwaters (28).JPG';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (28)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (28)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (28)_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (28)_JPG.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (28)_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (28)_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (3).jpg');
+App.progressCountCurrent = 23;
+App.batchStatusString = 'moonlitwaters (3).jpg';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (3)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (3)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (3)_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (3)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (3)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (3)_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (4).jpg');
+App.progressCountCurrent = 24;
+App.batchStatusString = 'moonlitwaters (4).jpg';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (4)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (4)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (4)_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (4)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (4)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (4)_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (5).jpg');
+App.progressCountCurrent = 25;
+App.batchStatusString = 'moonlitwaters (5).jpg';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (5)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (5)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (5)_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (5)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (5)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (5)_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (6).jpg');
+App.progressCountCurrent = 26;
+App.batchStatusString = 'moonlitwaters (6).jpg';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (6)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (6)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (6)_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (6)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (6)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (6)_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (7).jpg');
+App.progressCountCurrent = 27;
+App.batchStatusString = 'moonlitwaters (7).jpg';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (7)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (7)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (7)_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (7)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (7)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (7)_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (8).jpg');
+App.progressCountCurrent = 28;
+App.batchStatusString = 'moonlitwaters (8).jpg';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (8)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (8)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (8)_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (8)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (8)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (8)_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Pics/moonlitwaters/moonlitwaters (9).jpg');
+App.progressCountCurrent = 29;
+App.batchStatusString = 'moonlitwaters (9).jpg';
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (9)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (9)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/images/moonlitwaters (9)_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"35", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (9)_jpg.jpg') || confirm('file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (9)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Pics/moonlitwaters/upload/thumbnails/moonlitwaters (9)_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+'done';

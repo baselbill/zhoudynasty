@@ -1,0 +1,1 @@
+a:8:{i:0;i:23;i:1;s:4:"Nate";i:2;s:20:"http://www.yomas.com";i:3;s:0:"";i:4;s:136:"Hey you like white girls, see if you know who any of these people are, you crazy minnesota people!!!! http://www.dazzled.com/coldchicks/";i:5;b:0;i:6;s:13:"128.114.6.111";i:7;i:1078249980;}

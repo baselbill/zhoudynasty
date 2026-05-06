@@ -1,0 +1,41 @@
+<script type="text/javascript">
+
+function unblock ( sIp )
+{
+    document.getElementById ( '{ip_field}' ).value = sIp;
+    document.getElementById ( '{ip_field}' ).focus ( );
+    return false;
+}
+
+</script>
+
+<div>
+     <strong>IP blocking</strong><br />
+     The following IP addresses are blocked from posting on the shoutbox.<br />
+
+     <table style="margin:5px;" cellpadding="3" cellspacing="1">
+            {start blocked}
+            <tr style="background-color:{rowcolor:#FAFAFA|#F0F0F0}">
+                <td nowrap="nowrap">{ip}</td>
+                <td><a href="#" onclick="return unblock('{ip}');">Unblock</a></td>
+            </tr>
+            {end blocked}
+     </table>
+
+     Note that IP blocking is not effective against modem users or anyone with dynamic IP address.<br />
+     Most broadband users have static IP addresses so this should provide some blocking against troublesome users.
+</div>
+
+<form method="post" action="{form_action}">
+    <div style="margin-top:10px;">
+         <strong>Block a user</strong><br />
+         Enter the IP address of the user you want to block.<br />
+         Entering an IP address that is already in the list will unblock that address.<br />
+         <input type="text" size="20" name="{ip_field}" id="{ip_field}" maxlength="15"/>
+         <input type="submit" name="Block" value="Block / Unblock" /><br />
+    </div>
+</form>
+
+<div style="margin-top:10px;">
+     <a href="{back_url}">Back to the admin section.</a>
+</div>

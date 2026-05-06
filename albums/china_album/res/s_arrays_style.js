@@ -1,0 +1,25 @@
+// This files contains the menu style variables defined in the skin variables of the PixPlayer skin
+menuBorderColorDOM = '#072240 #072240 #072240 #072240';
+menuBorderColorNS4 = '#072240';
+menuBgColor = '#072240';
+menuItemBgColor = '#005ca5';
+menuItemBgColorOver = '#96c014';
+menuItemFontColor = '#ffffff';
+menuItemFontColorOver = '#ffffff';
+menuItemBorderColor = '#005ca5 #005ca5 #005ca5 #005ca5';
+menuItemFontFamily = 'verdana,arial,helvetica,sans-serif';
+menuItemFontSize = '10px';
+menuItemFontSizeNS4 = '1';
+menuItemFontWeight = 'bold';
+menuItemTextAlign = 'left';
+menuSeparatorColor = '#072240';
+menuSeparatorBgImage = '';
+menuItemClass = '';
+menuItemClassOver = '';
+menuItemIEfilter = 'progid:DXImageTransform.Microsoft.Alpha(opacity=80)';
+menuBorderWidth = 0;
+menuPadding = 1;
+menuItemBorderWidth = 0;
+menuItemPadding = 3;
+menuSeparatorSize = 1;
+menuSeparatorSpacing = 0;
